@@ -10,8 +10,9 @@
     "getRepo": "node ./src/lib/scripts/cloneExample.js"
   },
   "dependencies": {
-    "@chakra-ui/react": "^3.16.1",
+    "@anthropic-ai/claude-code": "^0.2.86",
     "@anthropic-ai/sdk": "^0.40.0",
+    "@chakra-ui/react": "^3.16.1",
     "next": "15.3.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
