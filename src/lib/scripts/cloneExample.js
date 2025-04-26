@@ -1,5 +1,7 @@
 const fs = require("fs");
 const path = require("path");
-const cloneRepo = require("./cloneRepo");
 
-cloneRepo("timurkanaz", "Russia_geojson_OSM");
+const cloneRepo = require("./cloneRepo");
+const exampleRepo = require("./exampleRepo");
+
+cloneRepo(exampleRepo.user, exampleRepo.repo);
