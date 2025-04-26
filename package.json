@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "getRepo": "node ./src/lib/scripts/cloneExample.js"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.16.1",
